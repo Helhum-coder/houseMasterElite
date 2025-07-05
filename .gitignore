@@ -1,0 +1,104 @@
+# Build artifacts
+build/
+dist/
+target/
+out/
+bin/
+obj/
+
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Large files that should use LFS
+# (These patterns are also in .gitattributes)
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.sqlite
+*.db
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.app
+*.apk
+*.ipa
+*.jar
+*.war
+*.ear
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
